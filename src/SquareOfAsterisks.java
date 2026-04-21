@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SquareOfAsterisks {
 
-    // Method to display a solid square of asterisks
+
     public static void squareOfAsterisks(int side) {
         for (int i = 0; i < side; i++) {
             for (int j = 0; j < side; j++) {
