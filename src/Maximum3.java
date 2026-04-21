@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Minimum3 {
+public class Maximum3 {
 
     // Method that returns the smallest of three floating-point numbers
-    public static double minimum3(double a, double b, double c) {
-        return Math.min(a, Math.min(b, c));
+    public static double maximum3(double a, double b, double c) {
+        return Math.max(a, Math.max(b, c));
     }
 
     public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class Minimum3 {
         double num2 = scanner.nextDouble();
         double num3 = scanner.nextDouble();
 
-        double smallest = minimum3(num1, num2, num3);
+        double biggest = maximum3(num1, num2, num3);
 
-        System.out.printf("The smallest number is: %.2f\n", smallest);
+        System.out.printf("The smallest number is: %.2f\n", biggest);
 
       
     }
